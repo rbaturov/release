@@ -7,10 +7,6 @@ base_images:
     name: hypershift-operator
     namespace: hypershift
     tag: latest
-  numaresources-operator-bundle-4.17:
-    name: numaresources-operator-4.17
-    namespace: ocp-kni
-    tag: numaresources-operator-bundle
   os-min9:
     name: ubi-minimal
     namespace: ocp
